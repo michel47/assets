@@ -1,0 +1,245 @@
+body {
+  background-image: url(https://cdn.statically.io/img/random?h=720);
+  background-size: cover;
+}
+.content {
+    padding: 10px;
+    background-color: #F1F0F2;
+    background-image: url(../img/bg.jpg);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #338;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #f0f0f0;
+    background-color: #575758;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
+}
+
+.header {
+    background-color: #f0f0f0;
+    background-image: url(../img/bg-top.jpg);
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    height: auto;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.header .photo {
+    float: left;
+    height: 105px;
+    margin-right: 15px;
+    padding: 11px;
+}
+
+.flaf img {
+    padding: 1px;
+}
+
+.header li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+
+.header ul {
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.grid-block {
+    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #dddddd;
+    padding: 15px 25px;
+    margin: 10px 0;
+}
+
+.grid-block:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #ddd #ddd transparent;
+    border-style: solid;
+    border-width: 21px;
+}
+
+.grid-block:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #ebebeb #ebebeb transparent;
+    border-style: solid;
+    border-width: 20px;
+}
+
+.grid-block h4 {
+    word-wrap: break-word;
+}
+
+.deviter {
+    height: 1px;
+    margin: 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+
+.title {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title.with-icon {
+    padding-left: 50px;
+}
+
+.title .cat-title {
+    margin-right: 5px;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 0;
+    background: #249EBD;
+    padding: 10px;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+    top: -6px;
+    min-height: 40px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+}
+
+.title .cat-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -10px;
+    border-top: 10px solid #249EBD;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.badge-right-float {
+    float: right;
+}
+
+.ribbon{
+  position: absolute; 
+  top: 42px;
+  width: 200px;
+  padding: 1px 0;
+  background: #000;
+  color: #eee;
+
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ribbon.left{
+  left: -42px;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.ribbon.right{
+  right: -42px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ribbon a, 
+.ribbon a:visited, 
+.ribbon a:active, 
+.ribbon a:hover{
+  display: block;
+  padding: 1px 0;
+  height: 24px;
+  line-height: 24px;
+
+  color: inherit;  
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  border: 1px solid rgba(255,255,255,0.3);
+
+  -moz-text-shadow: 0 0 10px rgba(0,0,0,0.31);
+  -webkit-text-shadow: 0 0 10px rgba(0,0,0,0.31);
+  text-shadow: 0 0 10px rgba(0,0,0,0.31);
+}
+
+.ribbon.black{
+  background: #000;
+}
+
+.ribbon.red{
+  background: #c00;
+}
+
+.ribbon.blue{
+  background: #09e;
+}
+
+.ribbon.green{
+  background: #0a0;
+}
+
+.ribbon.orange{
+  background: #d80;
+}
+
+.ribbon.purple{
+  background: #c0c;
+}
+
+.ribbon.grey{
+  background: #888;
+}
+
+.ribbon.white{
+  background: #eee;
+  color: black;
+}
+.ribbon.white a{
+  border: 2px dotted rgba(100,100,100,0.2);
+}
